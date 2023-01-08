@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.8:3306/atm_service
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    database: mysql
+    show-sql: true
+#server:
+#  ssl:
+#    enabled: true
+#    client-auth: need
+#    key-store: classpath:server-app.jks
+#    key-store-password: 3237801
+#    key-alias: server-app
+#    key-store-type: JKS
+#    key-store-provider: SUN
+#    trust-store: classpath:server-app.jks
+#    trust-store-password: 3237801
+#    trust-store-type: JKS
+
